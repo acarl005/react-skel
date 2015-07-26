@@ -1,0 +1,23 @@
+{
+  "name": "react-skel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node_modules/.bin/gulp",
+    "postinstall": "node_modules/.bin/bower install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Carlson",
+  "license": "MIT",
+  "dependencies": {
+    "browserify": "^11.0.0",
+    "express": "^4.13.1",
+    "gulp": "^3.9.0",
+    "gulp-nodemon": "^2.0.3",
+    "react": "^0.13.3",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.3.0"
+  }
+}
